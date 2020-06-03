@@ -1,0 +1,18 @@
+[
+  {
+    "testName":"Login",
+    "properties":
+    {
+      "user": "admin",
+      "pass": "admin123"
+    }
+  },
+  {
+    "testName":"LoginInvalidCredentials",
+    "properties":
+    {
+      "user": "admin",
+      "pass": "admin321"
+    }
+  }
+]

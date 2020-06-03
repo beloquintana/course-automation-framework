@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<tests>
+    <test name="Login">
+        <user>admin</user>
+        <pass>admin123</pass>
+    </test>
+    <test name="LoginInvalidCredentials">
+        <user>admin</user>
+        <pass>admin</pass>
+    </test>
+</tests>
