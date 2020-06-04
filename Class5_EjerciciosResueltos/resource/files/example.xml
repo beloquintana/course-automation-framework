@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<tests>
+    <test name="Login">
+        <user>admin</user>
+        <pass>admin123</pass>
+    </test>
+    <test name="LoginInvalidCredentials">
+        <user>admin</user>
+        <pass>admin</pass>
+    </test>
+    <test name="Employee">
+        <name>juan</name>
+        <email>juan@gmail.com</email>
+        <address>125463</address>
+        <phone>5222</phone>
+        <city>MTZ</city>
+        <state>Cuba</state>
+        <postCode>11600</postCode>
+    </test>
+</tests>

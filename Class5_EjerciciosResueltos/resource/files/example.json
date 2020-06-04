@@ -1,0 +1,31 @@
+[
+  {
+    "testName":"Login",
+    "properties":
+    {
+      "user": "admin",
+      "pass": "admin123"
+    }
+  },
+  {
+    "testName":"LoginInvalidCredentials",
+    "properties":
+    {
+      "user": "admin",
+      "pass": "admin321"
+    }
+  },
+  {
+    "testName":"Employee",
+    "properties":
+    {
+      "name": "juan",
+      "email": "juan@gmail.com",
+      "address": "125463",
+      "phone": "5222",
+      "city": "MTZ",
+      "state": "Cuba",
+      "postCode": "11600"
+    }
+  }
+]
