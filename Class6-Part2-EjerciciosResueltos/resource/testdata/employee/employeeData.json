@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Juan",
+    "email": "Juan@gmail.com",
+    "address": "125463",
+    "phone": "5222",
+    "city": "MTZ",
+    "state": "Cuba",
+    "postcode": "11600"
+  },
+  {
+    "name": "Juan Alberto",
+    "email": "Juan@gmail.com",
+    "address": "125463",
+    "phone": "5222",
+    "city": "MTZ",
+    "state": "Cuba",
+    "postcode": "11600"
+  }
+]
