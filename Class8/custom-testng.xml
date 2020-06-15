@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="classes">
+    <parameter name="url" value="https://testfaceclub.com/login-employee-v2/"/>
+    <parameter name="seleniumGridUrl" value="http://localhost:4444/wd/hub"/>
+    <test name="All test firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="login.LoginTests"/>
+            <class name="employee.EmployeeTests"/>
+        </classes>
+    </test>
+</suite>
