@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="classes">
+    <parameter name="url" value="https://the-internet.herokuapp.com/"/>
+    <parameter name="seleniumGridUrl" value="http://localhost:4444/wd/hub"/>
+    <test name="All test firefox">
+        <parameter name="browser" value="firefox-remote"/>
+        <classes>
+            <class name="multipleWindows.MultipleWindowsTest"/>
+        </classes>
+    </test>
+    <test name="All test chrome">
+        <parameter name="browser" value="chrome-remote"/>
+        <classes>
+            <class name="multipleWindows.MultipleWindowsTest"/>
+        </classes>
+    </test>
+</suite>
