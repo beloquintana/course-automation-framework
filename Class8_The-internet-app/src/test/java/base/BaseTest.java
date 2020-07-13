@@ -32,7 +32,7 @@ public class BaseTest {
         ReportHelper.getInstance().getTest().log(Status.INFO, "Browser: " + browser);
         switch (browser){
             case "chrome":
-                System.setProperty("webdriver.chrome.driver","resource/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
                 webDriver = new ChromeDriver();
                 logger.info("Start ChromeDriver");
                 break;
@@ -41,7 +41,7 @@ public class BaseTest {
                 logger.info("Start Remote ChromeDriver");
                 break;
             case "firefox":
-                System.setProperty("webdriver.gecko.driver","resource/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver","resources/geckodriver.exe");
                 webDriver = new FirefoxDriver();
                 logger.info("Start FirefoxDriver");
                 break;
